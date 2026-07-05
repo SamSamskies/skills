@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "review-scope": {
+      "source": "/Users/samsamskies/Workspace/skills",
+      "sourceType": "local",
+      "computedHash": "a2e212506a4afffb3d7a43cd831a78454694d8e83513ce91df0a839747e9c749"
+    }
+  }
+}

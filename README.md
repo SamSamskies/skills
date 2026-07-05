@@ -6,6 +6,16 @@ Skills follow the [Agent Skills](https://agentskills.io/) format and install wit
 
 ## Available Skills
 
+### review-scope
+
+Read-only scope check on uncommitted changes against the current task. Fast pre-commit gate — bullets for out-of-scope edits, or `clean.`
+
+**Use when:**
+
+- You want to know if the diff wandered beyond the task
+- You attach `@Commit (Diff of Working State)` for a scope check
+- You say things like "review scope only" or "anything beyond the task?"
+
 ### split-plan-into-slices
 
 Splits a Cursor Plan Mode markdown plan into multiple independent vertical-slice plan files, each buildable and testable on its own.
