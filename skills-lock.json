@@ -1,6 +1,11 @@
 {
   "version": 1,
   "skills": {
+    "draft-pr": {
+      "source": "/Users/samsamskies/Workspace/skills",
+      "sourceType": "local",
+      "computedHash": "60f6f233ebd031c6da8f6c493eb5cb3824f3b9cbe0910df3a5f44f98da53e5ad"
+    },
     "review-scope": {
       "source": "/Users/samsamskies/Workspace/skills",
       "sourceType": "local",

@@ -6,6 +6,16 @@ Skills follow the [Agent Skills](https://agentskills.io/) format and install wit
 
 ## Available Skills
 
+### draft-pr
+
+Drafts a `gh pr create` command for review before opening a pull request. Conventional-commit title, body with Summary and Test plan — you approve before it runs.
+
+**Use when:**
+
+- Your branch is pushed and you want a PR command to review first
+- You attach `@Branch (Diff with Main)` for PR prep
+- You say things like "draft a PR" or "prepare the PR command"
+
 ### review-scope
 
 Read-only scope check on uncommitted changes against the current task. Fast pre-commit gate — bullets for out-of-scope edits, or `clean.`
